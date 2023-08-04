@@ -1,0 +1,39 @@
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  list-style: none;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #c4dce0;
+  box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 6px 6px 9px -1px rgba(0, 0, 0, 0.47);
+  transition: scale 50ms;
+}
+
+.list_item:hover,
+.list_item:focus {
+  scale: 1.02;
+  font-weight: 500;
+}
+
+.button_delete {
+  cursor: pointer;
+  border: 2px solid #d59bf6;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: #d59bf6;
+}
+
+.button_delete:hover,
+.button_delete:focus {
+  cursor: pointer;
+  border: 2px solid #9896f1;
+  background-color: #9896f1;
+  font-weight: 700;
+  border-radius: 5px;
+  color: white;
+}
